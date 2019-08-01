@@ -65,11 +65,7 @@ while chances >= 0:
             elif option == 4:
                 print('Please wait while your card is Returned...\n')
                 print('Thank you for your service')
-                break
-
-            else:
-                print('Please enter a correct number. \n')
-                restart = ('y')
+                exit()
 
 #   We are retrying 3 times for correct pin number if failed exit from program with appropriate message.
 
